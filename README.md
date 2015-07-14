@@ -1,12 +1,32 @@
 (experimenting) ClojureBridge Curriculum
 ========================
 
-Please look at [README.md](https://github.com/ClojureBridge/curriculum/blob/gh-pages/README.md).
+Set up guide
+-------
+* [Getting Set Up](outline/setup.md)
 
-Read
-[CONTRIBUTING.md](https://github.com/ClojureBridge/curriculum/blob/gh-pages/CONTRIBUTING.md)
-before making changes.
+Curriculum
+------
+<http://clojurebridge.github.io/curriculum/>
 
+* [Introduction to Programming with Clojure](outline/intro.md)
+* [Data Structures](outline/data_structures.md)
+* [Functions](outline/functions.md)
+* [More Simple Values](outline/simple_values2.md)
+* [More Functions](outline/functions2.md)
+* [More Data Structures](outline/data_structures2.md)
+* [Flow Control](outline/flow_control.md)
+
+Capstone Apps
+-------------
+* [Part. 1](https://github.com/ClojureBridge/drawing/blob/master/curriculum/first-program.md)  -- [Repository](https://github.com/ClojureBridge/drawing/blob/master/README.md)
+* [Part. 2](https://github.com/ClojureBridge/drawing/blob/master/curriculum/create-something.md)
+
+
+Supporting Materials
+--------------------
+* [Student Cheatsheet](outline/cheatsheet.md) | [PDF](ClojureBridgeCheatsheet-v1.pdf)
+* [Old Capstone App: global-growth web app](https://github.com/ClojureBridge/global-growth/blob/master/README.md)
 
 License
 -------
