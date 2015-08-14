@@ -145,7 +145,7 @@ be confusing.
 </section>
 
 <section>
-### EXERCISE: See turtle names
+#### EXERCISE 1: See turtle names
 {: .slide_title .slide}
 
 * Go to `walk.clj` file
@@ -155,7 +155,7 @@ be confusing.
 </section>
 
 <section>
-### EXERCISE: Make a vector
+#### EXERCISE 2: Make a vector
 {: .slide_title .slide}
 
 * Go to insta-REPL
@@ -207,7 +207,7 @@ be confusing.
 
 > When turtle received commands such that `forward` or `right`,
 > those return the result as a form of map of map.
-{: ng-show="block102" .description}
+{: ng-show="block103" .description}
 
 ```clojure
 (forward 40)
@@ -316,6 +316,10 @@ be confusing.
 (def st (first states))
 ;=> #'clojurebridge-turtle.walk/st
 
+st
+;=> {:trinity {:x -1.7484556000744965E-6, :y 39.99999999999996, :angle
+90, :color [30 30 30]}}
+
 (:trinity st)
 ;=> {:x -1.7484556000744965E-6, :y 39.99999999999996, :angle 90, :color [30 30 30]}
 
@@ -325,3 +329,46 @@ be confusing.
 </section>
 
 
+<section>
+#### EXERCISE 1: See turtles states
+{: .slide_title .slide}
+
+* Go to `walk.clj` file
+* Try examples of previous two slides
+* See what values you get
+
+> Every time you write a line of code,
+> hit <kbd>Ctrl</kbd> + <kbd>Enter</kbd> or <kbd>Cmd</kbd> +
+> <kbd>Enter</kbd> to evaluate it one by one.
+
+```clojure
+(state-all)
+(def states (state-all))
+(first states)
+(def st (first states))
+st
+(:trinity st)
+(get-in st [:trinity :angle])
+```
+</section>
+
+<section>
+#### EXERCISE 2: Modeling Yourself
+{: .slide_title .slide}
+
+* Go to insta-REPL
+    - (Option) You may create a new file and write code in the file. To
+    evaluate, paste code block on `lein repl`
+* Make a map representing yourself
+* Make sure it contains your first name and last name
+* Then, add your hometown to the map using [assoc](http://grimoire.arrdem.com/1.6.0/clojure.core/assoc/) or [merge](http://grimoire.arrdem.com/1.6.0/clojure.core/merge/).
+</section>
+
+<section>
+#### EXERCISE 3 [BONUS]: Modeling your classmates
+{: .slide_title .slide}
+
+* First, take the map you made about yourself in previous exercise.
+* Then, create a vector of maps containing the first name, last name and hometown of two or three other classmates around you.
+* Lastly, add your map to their information using [conj](http://grimoire.arrdem.com/1.6.0/clojure.core/conj/).
+</section>

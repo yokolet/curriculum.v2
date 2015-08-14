@@ -133,7 +133,7 @@ Introduction to Programming with Clojure
 > Next to the parentheses, we see the instructions to the
 > computer. That instruction is normally what we call a _function_.
 > The functions do all the hard work in Clojure.
-> `println`, `+` and `forward` are all functions.
+> `str`, `+` and `forward` are all functions.
 > When these functions get run, they return a some type of value.
 > Clojure functions always return a value.
 {: ng-show="block32" .description}
@@ -142,9 +142,10 @@ Introduction to Programming with Clojure
 
 > Many functions take in _arguments_--which are everything else inside
 > the enclosing parentheses after the function--.
-> `println` takes "Hello, World!" and prints it.
+> `str` takes "Hello, World!" and returns a string.
 > `+` takes 3 and 4, adds them, and returns 7.
-> `forward` takes :trinity and 40 and moves a turtle by 40.
+> `forward` takes :trinity and 40, moves a turtle by 40 and returns
+> the result.
 {: ng-show="block33" .description}
 </section>
 
@@ -241,7 +242,7 @@ Introduction to Programming with Clojure
 </section>
 
 <section>
-### EXERCISE: Try insta-REPL
+#### EXERCISE 1: Try insta-REPL
 
 * Start Light Table
 * Open instarepl
@@ -249,11 +250,10 @@ Introduction to Programming with Clojure
 
 ```clojure
 (str "Hello, World!")
+(str "Hello, World!" " " "from Clojure")
 (+ 3 4)
 (- 3 4)
 (* 3 4)
-(range 0 10)
-(range 0 10 2)
 ```
 > You might see an error in red while typing. This happens
 > because Light Table is continually evaluating what you are typing,
@@ -261,7 +261,7 @@ Introduction to Programming with Clojure
 </section>
 
 <section>
-### EXERCISE: Evaluate file and line
+#### EXERCISE 2: Evaluate file and line
 
 * Open the file `welcometoclojurebridge/src/clojurebridge_turtle/walk.clj`
 * Evaluate the file and see what happens

@@ -23,7 +23,7 @@ Simple Values
 * Numbers
   - Arithmetic
 
-* Assigning names to values
+* Assignment: `def`
 </section>
 
 <section>
@@ -252,7 +252,7 @@ Prefix: (+ 1 2 3 4 5 6 7 8 9)
 
 
 <section>
-## Assigning names to values
+## Assignment: `def`
 
 #### <button class="link" ng-model="block161" ng-click="block161=!block161">Intro</button>
 
@@ -264,12 +264,12 @@ Prefix: (+ 1 2 3 4 5 6 7 8 9)
 </section>
 
 <section>
-### `def`
+#### Assigning names to values `def`
 
 #### <button class="link" ng-model="block171" ng-click="block171=!block171">Details</button>
 
 > We can assign a name to value using `def`.
-> When you assign a name to a value, that name is called a _symbol_.
+> When you assign a name to a value, that name is called a *symbol*.
 {: ng-show="block171" .description}
 
 > Reference: [Assignment def](http://clojurebridge.github.io/community-docs/docs/clojure/def/)
@@ -299,7 +299,7 @@ average-fruit-amount
 </section>
 
 <section>
-### EXERCISE: Basic arithmetic
+#### EXERCISE 1: Basic arithmetic
 
 * Take your height in feet and inches and convert it to inches using arithmetic in Clojure.
 * Then convert that to centimeters. There are 2.54 centimeters in an inch.
@@ -307,7 +307,7 @@ average-fruit-amount
 </section>
 
 <section>
-### BONUS: Convert back to feet and inches
+#### EXERCISE 2 [BONUS]: Convert back to feet and inches
 
 * Convert that average back to feet and inches.
 * The feet and the inches will be separate numbers.
