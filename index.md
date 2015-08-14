@@ -32,8 +32,14 @@ Please look at [README.md](README.md) instead. :green_heart: :blue_heart:
 * [Simple Values](outline/simple_values.html)
 * [Data Structures](outline/data_structures.html)
 * [Functions](outline/functions.html)
+* [Capstone App: Drawing Lines](https://github.com/ClojureBridge/drawing/blob/master/curriculum/first-program.md)
 * [Flow Control and Logic](outline/flow_control.html)
-* [Capstone App Pt. 1](https://github.com/ClojureBridge/drawing/blob/master/curriculum/first-program.md)
-    * [Repository](https://github.com/ClojureBridge/drawing/blob/master/README.md)
-* [Capstone App Pt. 2](https://github.com/ClojureBridge/drawing/blob/master/curriculum/create-something.md)
+* [[bonus module] Sequence and Recursion](outline/flow_control.html)
+
+* Choices of Apps
+
+    - [Snowflakes](https://github.com/ClojureBridge/drawing/blob/master/curriculum/create-something.md)
+    - [Twinkle Stars]()
+    - [Turtles]()
+    - [Global Growth]()
 </section>

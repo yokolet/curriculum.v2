@@ -26,7 +26,7 @@ Functions
 </section>
 
 <section>
-## What are functions?
+### What are functions?
 {: .slide_title .slide}
 
 #### <button class="link" ng-model="block11" ng-click="block11=!block11">Intro</button>
@@ -37,8 +37,11 @@ Functions
 > though?
 {: ng-show="block11" .description}
 
-> A _function_ is an independent, discrete piece of code that takes in
-> some values (called _arguments_) and returns a value.
+> A *function* is an independent, discrete piece of code that takes in
+> some values (called *arguments*) and returns a value.
+{: ng-show="block11" .description}
+
+> Reference: [Basics of Function](http://clojurebridge.github.io/community-docs/docs/clojure/function-creation/)
 {: ng-show="block11" .description}
 
 * `count`, `conj`, `first`
@@ -172,6 +175,9 @@ Functions
 > That's a complicated idea, also, may not make sense at first.
 > Let's look at an example and learn more about that.
 {: ng-show="block71" .description}
+
+> Reference: [Higher-order Function](http://clojurebridge.github.io/community-docs/docs/clojure/higher-order-function/)
+{: ng-show="block71" .description}
 </section>
 
 <section>
@@ -241,11 +247,13 @@ Functions
 > So far, all the functions we've seen have had names, like `+` and
 > `str` and `reduce`. However, functions don't need to have names, just
 > like values don't need to have names. We call functions without names
-> _anonymous functions_.
-{: ng-show="block201" .description}
-
+> *anonymous functions*.
 > An anonymous function is created with `fn`, like so:
 {: ng-show="block201" .description}
+
+> Reference: [Anonymous Function](http://clojurebridge.github.io/community-docs/docs/clojure/anonymous-function/)
+{: ng-show="block201" .description}
+
 
 ```clojure
 (fn [s1 s2] (str s1 " " s2))
@@ -304,6 +312,26 @@ Functions
 {: ng-show="block301" .description}
 </section>
 
+<section>
+#### Assigning names to values: `let`
+{: .slide_title .slide}
+
+#### <button class="link" ng-model="block305" ng-click="block305=!block305">Details</button>
+
+> We can assign a name to value using `let` like `def`.
+> When a name is assigned to a value, the name is called a *symbol*.
+{: ng-show="block305" .description}
+
+> Reference: [Assignment let](http://clojurebridge.github.io/community-docs/docs/clojure/let/)
+{: ng-show="block305" .description}
+
+```clojure
+(let [mangoes 3
+      oranges 5]
+  (+ mangoes oranges))
+;=> 8
+```
+</section>
 
 <section>
 #### `let` example

@@ -264,12 +264,12 @@ Prefix: (+ 1 2 3 4 5 6 7 8 9)
 </section>
 
 <section>
-#### Assigning names to values `def`
+#### Assigning names to values: `def`
 
 #### <button class="link" ng-model="block171" ng-click="block171=!block171">Details</button>
 
 > We can assign a name to value using `def`.
-> When you assign a name to a value, that name is called a *symbol*.
+> When a name is assigned a value, that name is called a *symbol*.
 {: ng-show="block171" .description}
 
 > Reference: [Assignment def](http://clojurebridge.github.io/community-docs/docs/clojure/def/)
