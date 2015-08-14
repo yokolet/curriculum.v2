@@ -114,7 +114,7 @@ Introduction to Programming with Clojure
 {: .slide_title .slide}
 
 ```clojure
-(println "Hello, World!")
+(str "Hello, World!")
 (+ 3 4)
 (forward :trinity 40)
 ```
@@ -175,8 +175,8 @@ Introduction to Programming with Clojure
 
 ```clojure
 ;; example functions from a previous slide
-(println "Hello, World!") ; a well-known hello world
-(+ 3 4)                   ; why not 3 + 4? figure out later
+(str "Hello, World!")  ; a well-known hello world
+(+ 3 4)                ; why not 3 + 4? figure out later
 ```
 </section>
 
@@ -203,21 +203,19 @@ Introduction to Programming with Clojure
 ## REPL in action
 {: .slide_title .slide}
 
-#### Light Table's "insta-REPL" <button class="link" ng-model="block61" ng-click="block61=!block61">Details</button>
+#### Light Table's REPL <button class="link" ng-model="block61" ng-click="block61=!block61">Details</button>
 
 > Clojure has a REPL that you can run from the terminal easily, and
 > we'll talk more about that later, but for now, let's use Light
-> Table's "insta-REPL," a nice way to interact with Clojure from
+> Table's REPL. It is a nice way to interact with Clojure from
 > within Light Table.
 {: ng-show="block61" .description}
 
 
-#### Start REPL <button class="link" ng-model="block62" ng-click="block62=!block62">Details</button>
+#### insta-REPL <button class="link" ng-model="block62" ng-click="block62=!block62">Details</button>
 
-> Go ahead and start Light Table.
-> Once it's started, open the file
-> `welcometoclojurebridge/src/clojurebridge_turtle/walk.clj`.
-> Next, go to the "View" menu and click "Commands."
+> Let's begin with "insta-REPL."
+> Start Light Table, go to the "View" menu and click "Commands."
 > Notice that typing ctrl+space is another handy way.
 > Type "insta" and press enter when the "Instarepl:
 > Open a Clojure instarepl" choice is highlighted.
@@ -228,29 +226,49 @@ Introduction to Programming with Clojure
 > before typing anything.
 {: ng-show="block62" .description}
 
-#### Try it out <button class="link" ng-model="block63" ng-click="block63=!block63">Details</button>
 
-> Once Instarepl starts working, you'll see the word, "live", on the
-> upper right corner. Also, the initial image of a turtle pops up.
-> Let's try out the REPL. 
-> For example, `(+ 3 4)` and see what happens.
+#### Evaluate file and line <button class="link" ng-model="block63" ng-click="block63=!block63">Details</button>
+
+> Also, Light Table give us a way to evaluate Clojure program file and a
+> single line of Clojure program.
+> Open the file
+> `welcometoclojurebridge/src/clojurebridge_turtle/walk.clj`.
+> Hit <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Enter</kbd> or
+> <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>Enter</kbd> to evaluate the
+> file. Hit <kbd>Ctrl</kbd> + <kbd>Enter</kbd> or <kbd>Cmd</kbd> +
+> <kbd>Enter</kbd> to evaluate each line.
 {: ng-show="block63" .description}
 </section>
 
 <section>
-### EXERCISE: Try REPL
+### EXERCISE: Try insta-REPL
 
-* Start Light Table (or other repl's of your favorite)
-* Open the file `welcometoclojurebridge/src/clojurebridge_turtle/walk.clj`
-* Start "Instarepl"
-* Try `(+ 3 4)` and see the result appearing beside what you were typing.
+* Start Light Table
+* Open instarepl
+* Type Clojure functions below and see what happens
 
-> * You might see an error in red while typing. This happens
+```clojure
+(str "Hello, World!")
+(+ 3 4)
+(- 3 4)
+(* 3 4)
+(range 0 10)
+(range 0 10 2)
+```
+> You might see an error in red while typing. This happens
 > because Light Table is continually evaluating what you are typing,
 > and before you finish, the code might not be valid.
+</section>
 
-* Try `(forward 40)`, `(right 90)` or other commands.
-* See the result on the LightTable and turtle image.
+<section>
+### EXERCISE: Evaluate file and line
+
+* Open the file `welcometoclojurebridge/src/clojurebridge_turtle/walk.clj`
+* Evaluate the file and see what happens
+* Type `(forward 40)` and evaluate this line
+* See what happens
+* Type `(right 90)` or other commands and evaluate the lines one by one
 * Take a look [Command Reference](TURTLE.md),
-[How To Walk Turtles](TURTLE-SAMPLE.md) and try more commands to walk the turtle(s)
+[How To Walk Turtles](TURTLE-SAMPLE.md) and try more commands to walk
+your turtle(s)
 </section>

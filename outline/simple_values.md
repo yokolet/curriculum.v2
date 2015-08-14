@@ -54,9 +54,7 @@ Simple Values
 
 ```clojure
 "Hello, World!"
-
 "This is a longer string that I wrote for purposes of an example."
-
 "Aubrey said, \"I think we should go to the Orange Julius.\""
 ```
 </section>
@@ -100,7 +98,8 @@ nil
 > languages have similar one. However, keywords don’t have a real
 > world analog like numbers, strings, or booleans.
 > You can think of them as a special type of string, one that’s used for
-> labels. They are often used as keys for maps.
+> labels. They are often used as keys of key-value pair for maps (data
+> structure; will learn later).
 {: ng-show="block41" .description}
 
 
