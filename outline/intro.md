@@ -272,3 +272,16 @@ Introduction to Programming with Clojure
 [How To Walk Turtles](TURTLE-SAMPLE.md) and try more commands to walk
 your turtle(s)
 </section>
+
+<section>
+#### EXERCISE 3: Look at Clojure docs
+
+* Got to either of `insta-REPL` or `walk.clj` file
+* Move your cursor to the end of any function name, for example `+`
+or `forward`
+* Right click and select "Show docs"
+* See the document appears on the Light Table
+* Check your cursor is still at the end of the function name
+* Right click and select "Show docs"
+* See the document disappears
+</section>
