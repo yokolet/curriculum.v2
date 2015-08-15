@@ -139,7 +139,7 @@ Functions
 ### Naming functions
 {: .slide_title .slide}
 
-#### Symbols <button class="link" ng-model="block61" ng-click="block61=!block61">Details</button>
+#### Names are Symbols <button class="link" ng-model="block61" ng-click="block61=!block61">Details</button>
 
 > Function names are symbols, just like the symbols we used with `def`
 > when assigning names to values.
@@ -151,14 +151,27 @@ Functions
 > idioms we use.
 {: ng-show="block61" .description}
 
-#### Examples of predicate functions <button class="link" ng-model="block62" ng-click="block62=!block62">Details</button>
+#### Two types of functions <button class="link" ng-model="block62" ng-click="block62=!block62">Details</button>
 
-> Functions that return true or false--called _predicates_--usually end in `?`:
+> Clojure has two type of functions:
+> 1. function that returns a value,
+> 2. function that returns true or false.
+> The second type is called *predicate*s.
 {: ng-show="block62" .description}
 
-* zero?
-* vector?
-* empty?
+
+##### Predicate function examples <button class="link" ng-model="block63" ng-click="block63=!block63">Details</button>
+
+> In Clojure, `=` is a predicate function, which may be a surprising
+> fact. Other than that, like many other computer languages,
+> Clojure has predicate functions to test greater than, less than or such.
+> Mostly predicate functions end with `?`.
+{: ng-show="block63" .description}
+
+> * `=`
+> * `>`, `<`
+> * `true?`, `false?`, `empty?`, `nil?`, `vector?`, `map?`
+
 </section>
 
 <section>
@@ -339,7 +352,7 @@ Functions
 <button class="link" ng-model="block311" ng-click="block311=!block311">Details 1</button>
 <button class="link" ng-model="block312" ng-click="block312=!block312">Details 2</button>
 <button class="link" ng-model="block313" ng-click="block313=!block313">Details 3</button>
-<button class="link" ng-model="block314" ng-click="block314=!block314">Details 4</button>
+<button class="link" ng-model="block314" ng-click="block314=!block314">Exercise</button>
 
 > This is the most complicated function we've seen so far, so let's go
 > through each step. First, we have the name of the function, the
@@ -357,13 +370,14 @@ Functions
 > a value. Within the `let`, `t1` and `t2` are defined.
 {: ng-show="block313" .description}
 
-> Evaluate `spread` function at the last line of the function definition.
-> Also, evaluate usage example of `spread` function.
+> Go to `walk.clj` and write `opposite` function.
+> Then, evaluate `opposite` function at the last line of the function definition.
+> Also, evaluate usage example of `opposite` function.
 {: ng-show="block314" .description}
 
 ```clojure
 ;; function definition
-(defn spread
+(defn opposite
   "Given a collection of turtle names, moves two of them in different directions."
   [names]
   (let [t1 (first names)
@@ -372,6 +386,6 @@ Functions
     (backward t2 30)))
 
 ;; function usage
-(spread (turtle-names))
+(opposite (turtle-names))
 ```
 </section>
