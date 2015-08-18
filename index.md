@@ -34,12 +34,14 @@ Please look at [README.md](README.md) instead. :green_heart: :blue_heart:
 * [Functions](outline/functions.html)
 * [Capstone App: Drawing Lines](https://github.com/ClojureBridge/drawing/blob/master/curriculum/first-program.md)
 * [Flow Control and Logic](outline/flow_control.html)
-* [[bonus module] Sequence and Recursion](outline/flow_control.html)
+* [[bonus module] Sequences and Loops](outline/sequences.html)
 
 * Choices of Apps
 
     - [Snowflakes](https://github.com/ClojureBridge/drawing/blob/master/curriculum/create-something.md)
-    - [Twinkle Stars]()
-    - [Turtles]()
-    - [Global Growth]()
+          (another drawing app)
+
+    - [Twinkle Little Star]() (making sounds)
+    - [Turtles Walk]() (more function study)
+    - [Global Growth]() (web app with REST api)
 </section>

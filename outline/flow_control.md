@@ -22,7 +22,7 @@ Flow Control
 </section>
 
 <section>
-## What is flow control?
+### What is flow control?
 {: .slide_title .slide}
 
 #### Decisions how to react <button class="link" ng-model="block11" ng-click="block11=!block11">Details</button>
@@ -45,7 +45,7 @@ Flow Control
 </section>
 
 <section>
-## if
+### `if`
 {: .slide_title .slide}
 
 #### Example <button class="link" ng-model="block21" ng-click="block21=!block21">Details</button>
