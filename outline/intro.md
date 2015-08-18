@@ -268,15 +268,15 @@ Introduction to Programming with Clojure
 * Type `(forward 40)` and evaluate this line
 * See what happens
 * Type `(right 90)` or other commands and evaluate the lines one by one
-* Take a look [Command Reference](TURTLE.md),
-[How To Walk Turtles](TURTLE-SAMPLE.md) and try more commands to walk
-your turtle(s)
+* Take a look [Command Reference](TURTLE.md) and
+[How To Walk Turtles](TURTLE-SAMPLE.md)
+[section 1 and 2], and try more commands to walk your turtle
 </section>
 
 <section>
 #### EXERCISE 3: Look at Clojure docs
 
-* Got to either of `insta-REPL` or `walk.clj` file
+* Go to either of `insta-REPL` or `walk.clj` file
 * Move your cursor to the end of any function name, for example `+`
 or `forward`
 * Right click and select "Show docs"
