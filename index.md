@@ -34,9 +34,9 @@ Please look at [README.md](README.md) instead. :green_heart: :blue_heart:
 * [Functions](outline/functions.html)
 * [Capstone App: Drawing Lines](https://github.com/ClojureBridge/drawing/blob/master/curriculum/first-program.md)
 * [Flow Control and Logic](outline/flow_control.html)
-* [[bonus module] Sequences and Loops](outline/sequences.html)
+* [[bonus module] Sequences](outline/sequences.html)
 
-* Choices of Apps
+* Choices of Capstone App - Part. 2
 
     - [Turtles Walk](https://github.com/ClojureBridge/welcometoclojurebridge/blob/master/outline/TURTLE-SAMPLES.md) (more function study)
 
