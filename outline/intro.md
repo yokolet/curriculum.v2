@@ -268,8 +268,8 @@ Introduction to Programming with Clojure
 * Type `(forward 40)` and evaluate this line
 * See what happens
 * Type `(right 90)` or other commands and evaluate the lines one by one
-* Take a look [Command Reference](TURTLE.md) and
-[How To Walk Turtles](TURTLE-SAMPLE.md)
+* Take a look [Turtles App API](https://github.com/ClojureBridge/welcometoclojurebridge/blob/master/outline/TURTLE.md) and
+[How To Walk Turtles](https://github.com/ClojureBridge/welcometoclojurebridge/blob/master/outline/TURTLE-SAMPLES.md)
 [section 1 and 2], and try more commands to walk your turtle
 </section>
 
