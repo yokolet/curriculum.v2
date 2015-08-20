@@ -35,7 +35,7 @@ If not, visit [git-scm.com](http://git-scm.com/). Click "Downloads for Mac". The
 If you've used Git before then you should already have user.name and user.email configured.
 Otherwise, type this in the terminal:
 
-```
+```bash
 git config --global user.name "Your Actual Name"
 git config --global user.email "Your Actual Email"
 ```
@@ -117,7 +117,7 @@ You have set up Java, Leiningen, Light Table, and Git on your computer--all the 
 
 Go to your terminal and run the following command:
 
-```
+```bash
 git clone https://github.com/ClojureBridge/welcometoclojurebridge
 ```
 
@@ -129,13 +129,13 @@ This will clone `welcometoclojurebridge` repository which includes sample Clojur
 
 Then run the command:
 
-```
+```bash
 cd welcometoclojurebridge
 ```
 
 This will take you to the directory with the source code. After that completes, run:
 
-```
+```bash
 lein repl
 ```
 
@@ -152,11 +152,11 @@ Now, start Applications > LightTable. Once it is started, press the
 Control button and Space Bar together (abbreviated Ctrl+Space). This
 is how you start giving Light Table a command. Start typing the word "instarepl" and you should see a menu of options, like below. Choose "Instarepl: open a clojure instarepl."
 
-![Testing LightTable - starting instarepl](img/testing-start-instarepl.png)
+![Testing Light Table - starting instarepl](img/testing-start-instarepl.png)
 
 At the bottom left of the screen, you will see a cube moving and some text about connecting, retrieving and installing dependencies. Wait until that stops moving, then type `(+ 1 1)` into the window. It should look like the following image:
 
-![Testing LightTable - running in the instarepl](img/testing-use-instarepl.png)
+![Testing Light Table - running in the instarepl](img/testing-use-instarepl.png)
 
 If that worked, great!
 
