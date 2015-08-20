@@ -169,11 +169,11 @@ prompt. Then, the terminal will show you the following message: `user=> Bye for 
 
 Now, start Light Table. Once it is started, press the Control button and Space Bar together (abbreviated Ctrl+Space). This is how you start giving Light Table a command. Start typing the word "instarepl" and you should see a menu of options, like below. Choose "Instarepl: open a clojure instarepl."
 
-![Testing Light Table - starting instarepl](img/testing-start-instarepl.png)
+![Testing Light Table - starting instarepl](img/ubuntu/testing-start-instarepl.png)
 
 At the bottom of the screen, you will see a cube moving and some text about connecting and installing dependencies. Once that stops moving, type `(+ 1 1)` into the window. It should look like the following image:
 
-![Testing Light Table - running in the instarepl](img/testing-use-instarepl.png)
+![Testing Light Table - running in the instarepl](img/ubuntu/testing-use-instarepl.png)
 
 If that worked, great!
 

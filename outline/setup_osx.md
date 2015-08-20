@@ -5,9 +5,9 @@ OS X Setup
 * Install Git
 * Configure Git
 * Make sure Java is installed
-* Get Leiningen installed
-* Get Light Table installed
-* Test installation
+* Install Leiningen
+* Install Light Table
+* Test your setup
 * Troubleshooting
     - OS X 10.6.8
     - Yosemite
@@ -61,7 +61,7 @@ If Java is installed, you will see something like this in your terminal:
 
 The details of Java's version may differ from what you see above; that is perfectly fine.
 
-## Installing Leiningen
+## Install Leiningen
 
 Leiningen is a tool used on the command line to manage Clojure projects.
 
@@ -86,7 +86,7 @@ Now run `which lein` and you should see the `lein` command.
 
 After you set up Leiningen as above, run the `lein version` command. This should take a while to run, as it will download some resources it needs the first time. If it completes successfully, you are golden! If not, ask an instructor for help.
 
-## Installing Light Table
+## Install Light Table
 
 Go to the [Light Table site](http://www.lighttable.com/). On the page there, you should see a set of buttons that have download links for Light Table. Click the "OS X 10.7+" button and you will download a .zip file.
 
@@ -109,9 +109,9 @@ Run the following commands to create a "shortcut command" called `light-table`:
 
 You can now open files and folders in Light Table from the command line by entering `light-table path/to/the/file/you/want/to/open.clj`.
 
-## Testing your setup
+## Test your setup
 
-You have set up Java, Leiningen, Light Table, and Git on your computer--all the tools you will need for this course. Before starting, we need to test them out.
+You have set up Java, Leiningen, Light Table, and Git on your computer--all the tools you will need for this workshop. Before starting, we need to test them out.
 
 #### Cloning out github repository
 
@@ -121,7 +121,9 @@ Go to your terminal and run the following command:
 git clone https://github.com/ClojureBridge/welcometoclojurebridge
 ```
 
-This will clone `welcometoclojurebridge` repository which includes sample Clojure apps.
+This will clone `welcometoclojurebridge` repository which includes
+sample Clojure apps.
+Your terminal should look similar to this picture:
 
 ![Testing git clone](img/os_x/testing-git-clone.png)
 
@@ -152,11 +154,11 @@ Now, start Applications > LightTable. Once it is started, press the
 Control button and Space Bar together (abbreviated Ctrl+Space). This
 is how you start giving Light Table a command. Start typing the word "instarepl" and you should see a menu of options, like below. Choose "Instarepl: open a clojure instarepl."
 
-![Testing Light Table - starting instarepl](img/testing-start-instarepl.png)
+![Testing Light Table - starting instarepl](img/os_x/testing-start-instarepl.png)
 
 At the bottom left of the screen, you will see a cube moving and some text about connecting, retrieving and installing dependencies. Wait until that stops moving, then type `(+ 1 1)` into the window. It should look like the following image:
 
-![Testing Light Table - running in the instarepl](img/testing-use-instarepl.png)
+![Testing Light Table - running in the instarepl](img/os_x/testing-use-instarepl.png)
 
 If that worked, great!
 
