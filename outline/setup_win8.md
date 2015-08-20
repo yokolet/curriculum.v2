@@ -8,6 +8,7 @@ Windows 8 Setup
 * Install Leiningen
 * Install Light Table
 * Test your setup
+* Troubleshooting
 
 ## Starting a command prompt
 
@@ -93,6 +94,8 @@ Once you have downloaded the right Java version, run the executable you download
 ## Install Leiningen
 
 Leiningen is a tool used on the command line to manage Clojure projects.
+
+> see troubleshooing for leiningen installation
 
 Next, go back to [the Leiningen Windows installer site](http://leiningen-win-installer.djpowell.net/) and download the file linked as "leiningen-win-installer." Run this executable and follow the "Detailed installation" section at the Leiningen Windows Installer site. At the end of the installation, leave "Run a Clojure REPL" checked before you click "Finish." If a terminal window opens that looks like the one on the Leiningen Windows installer site, then you are good to go.
 
@@ -214,6 +217,16 @@ Congratulations! You have opened and run your first Clojure apps, and
 your install and setup are all completed!
 
 
-
 ### Troubleshooting
-* If you receive errors while running Light Table about Java or JDK, these may be resolved by finishing the installation of Leiningen first. If not, see a TA to look at your environment variables.
+
+* If you receive errors while running Light Table about Java or JDK,
+  these may be resolved by finishing the installation of Leiningen
+  first. If not, see a TA to look at your environment variables.
+
+* Leiningen Windows Installer has an issue that it doesn't install
+  lein.bat correctly. This causes curl.exe to fail downloading files
+  with th error below. Skip the Leiningen Windows Installer. Download
+  lein.bat from leiningen.org and run self-installer.
+
+> error:0307A071:bignum routines:BN_rand_range:too many iterations.
+
