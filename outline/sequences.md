@@ -21,10 +21,6 @@ Sequences and Loops
 
 * What are sequences
 * `doseq`
-* Loops in Clojure
-    - `loop`
-    - `dotimes`
-    - `for`
 </section>
 
 <section>
@@ -103,67 +99,4 @@ clojure.lang.Keyword  clojure.lang.RT.seqFrom (RT.java:528)
 
 * Twinkle Little Star (making sounds)
 * Turtles Walk (more function study)
-</section>
-
-<section>
-### Loops in Clojure
-<button class="link" ng-model="block51" ng-click="block51=!block51">Intro</button>
-
-> If you have experiences of other languages,
-> probably, you will struggle to understand Clojure's loops.
-> Loops in Clojure are very different from so-called **for-loop**.
->
-> The `loop` function is the closest to the idea of so-called
-> for-loop. However, it is actually a recursion.
-> The `dotimes` function may be the second closest.
-> Clojure has a `for` function, but it is a sequence function like
-> `map`. Let's look at these functions.
-{: ng-show="block51" .description}
-</section>
-
-<section>
-#### `loop`
-{: .slide_title .slide}
-
-#### <button class="link" ng-model="block61" ng-click="block61=!block61">Details</button>
-
-
-
-> Reference:
-> [`recur`](http://clojurebridge.github.io/community-docs/docs/clojure/recur/),
-> [`loop`](http://clojurebridge.github.io/community-docs/docs/clojure/loop/)
-{: ng-show="block61" .description}
-
-```clojure
-
-```
-</section>
-
-<section>
-#### `dotimes`
-{: .slide_title .slide}
-
-#### <button class="link" ng-model="block71" ng-click="block71=!block71">Details</button>
-
-> `if` statements are not limited to testing only one thing. You can
-> test multiple conditions using boolean logic. _Boolean logic_ refers
-> to combining and changing the results of predicates using `and`,
-> `or`, and `not`.
-{: ng-show="block71" .description}
-
-</section>
-
-<section>
-#### `for`
-
-#### <button class="link" ng-model="block81" ng-click="block81=!block81">Details</button>
-
-> `and`, `or`, and `not` work like other functions (they aren't
-> exactly functions, but work like them), so they are in _prefix
-> notation_, like we've seen with arithmetic.
-{: ng-show="block81" .description}
-
-> Reference:
-> [`for`](http://clojurebridge.github.io/community-docs/docs/clojure/for/)
-{: ng-show="block81" .description}
 </section>

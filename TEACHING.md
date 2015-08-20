@@ -86,19 +86,19 @@ TODO: add tips under each heading.
 
 * [Getting Set Up](outline/setup.md)
 * [Introduction to Programming with Clojure](outline/intro.md)
-  - 30 min
+  - 20 min
 * [Simple Values](outline/simple_values.md)
   - 30 min
 * [Data Structures](outline/data_structures.md)
   - 60 min
 * [Functions](outline/functions.md)
-  - 60 min
+  - 45-60 min
 * [Capstone App 1](https://github.com/ClojureBridge/drawing/blob/master/curriculum/first-program.md)
   - 60 min
 * [Flow Control](outline/flow_control.md)
   - 20 min
 * [[bonus] Sequences](outline/sequences.md)
-  - 20 min
+  - 10 min
 
 * [Capstone App Pt. 2]
   - 60 - 90 min
