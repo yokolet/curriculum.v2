@@ -5,9 +5,9 @@ Ubuntu Setup
 * Install Git
 * Configure Git
 * Make sure Java is installed
-* Get Leiningen installed
-* Get Light Table installed
-* Test installation
+* Install Leiningen
+* Install Light Table
+* Test your setup
 
 ## Starting a terminal
 
@@ -67,7 +67,7 @@ If Java is installed, you will see something like this in your terminal:
 
 The details of Java's version may differ from what you see above; that is perfectly fine.
 
-## Installing Leiningen
+## Install Leiningen
 
 Leiningen is a tool used on the command line to manage Clojure projects.
 
@@ -87,7 +87,7 @@ export PATH=$PATH:/usr/local/bin
 
 After you run the above commands, run the `lein version` command. It should take a while to run, as it will download some resources it needs the first time. If it completes successfully, you are golden! If not, ask an instructor for help.
 
-## Installing Light Table
+## Install Light Table
 
 You will need to know whether you are running the 32-bit or 64-bit version of Ubuntu. To find out, click Dash Home and type Details. You should see a window like this:
 
@@ -134,8 +134,7 @@ git clone https://github.com/ClojureBridge/welcometoclojurebridge
 ```
 
 This will clone `welcometoclojurebridge` repository which includes sample Clojure apps.
-
-This will check out a sample Clojure application from GitHub, a central repository for lots of source code. Your terminal should look similar to this picture:
+Your terminal should look similar to this picture:
 
 ![Testing git clone](img/ubuntu/testing-git-clone.png)
 
