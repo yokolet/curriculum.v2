@@ -114,7 +114,7 @@ You should see a window like this:
 
 ![Create Icon](img/ubuntu/create_icon.png)
 
-Name the launcher Light Table. Type the path to the command `/usr/local/bin/LightTable/LightTable`. Click the icon. The LightTable icon can be found at `/usr/local/bin/LightTable/core/img/lticon.png`.
+Name the launcher LightTable. Type the path to the command `/usr/local/bin/LightTable/LightTable`. Click the icon. The LightTable icon can be found at `/usr/local/bin/LightTable/core/img/lticon.png`.
 
 ### Opening files in Light Table from the command line *(optional)*
 
@@ -193,7 +193,7 @@ to open it. This is a Clojure program.
 Click on the file contents and
 press the following key combination:
 
-<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>Enter</kbd>
+<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Enter</kbd>
 
 You should see a fun welcome message.
 
