@@ -375,8 +375,8 @@ st
 
 {% comment %}
 
-:start2: Links below is for slide only. Go to [README.md](../README.md)
-instead. :start2:
+:star2: Links below is for slide only. Go to [README.md](../README.md)
+instead. :star2:
 
 {% endcomment %}
 
