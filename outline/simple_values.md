@@ -311,7 +311,11 @@ average-fruit-amount
 
 * Convert that average back to feet and inches.
 * The feet and the inches will be separate numbers.
-* `(quot x y)` will give you the whole number part when dividing two
-numbers.
-* `(mod x y)` will give you the remainder when dividing two numbers.
+* `(quot x y)` will give you the whole number part of x divided by y.
+* `(rem x y)` will give you the remainder of x divided by y.
+</section>
+
+<section>
+Return to the <a href="javascript:;" onClick="Reveal.slide(1);">first slide</a>,
+or go to the [curriculum outline](/curriculum/#/1).
 </section>

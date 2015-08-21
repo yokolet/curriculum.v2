@@ -51,7 +51,7 @@ you have programmed in another language, these might have been
 called arrays in that language.
 {: ng-show="block21" .description}
 
-#### Compartments like structure <button class="link" ng-model="block22" ng-click="block22=!block22">Details</button>
+#### Compartment-like structure <button class="link" ng-model="block22" ng-click="block22=!block22">Details</button>
 
 > To imagine a vector, imagine a box split into some number of
 > equally-sized compartments. Each of those compartments has a number.
@@ -159,7 +159,7 @@ be confusing.
 {: .slide_title .slide}
 
 * Go to insta-REPL
-* Make a vector of the high temperatues for the next 7 days in the
+* Make a vector of the high temperatures for the next 7 days in the
   town where you live.
 * Then use the `nth` function to get the high temperature for next
   Tuesday.
@@ -371,4 +371,9 @@ st
 * First, take the map you made about yourself in previous exercise.
 * Then, create a vector of maps containing the first name, last name and hometown of two or three other classmates around you.
 * Lastly, add your map to their information using [conj](http://grimoire.arrdem.com/1.6.0/clojure.core/conj/).
+</section>
+
+<section>
+Return to the <a href="javascript:;" onClick="Reveal.slide(1);">first slide</a>,
+or go to the [curriculum outline](/curriculum/#/1).
 </section>
