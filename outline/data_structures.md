@@ -373,6 +373,13 @@ st
 * Lastly, add your map to their information using [conj](http://grimoire.arrdem.com/1.6.0/clojure.core/conj/).
 </section>
 
+{% comment %}
+
+Links below is for slide only. Go to [README.md](../README.md)
+instead.
+
+{% endcomment %}
+
 <section>
 Return to the <a href="javascript:;" onClick="Reveal.slide(1);">first slide</a>,
 or go to the [curriculum outline](/curriculum/#/1).
