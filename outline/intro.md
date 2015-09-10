@@ -26,8 +26,7 @@ Introduction to Programming with Clojure
 * Assigning names to values
 </section>
 
-<section>
-<div ng-controller="NarrativeController">
+<section ng-controller="NarrativeController">
 
 ## Why Clojure?
 {: .slide_title .slide}
@@ -71,15 +70,12 @@ Introduction to Programming with Clojure
 > the joy of seeing a Clojure program come together and do something
 > powerful and surprising.
 {: ng-show="block14" .description}
-
-</div>
 </section>
 
-<section>
+<section ng-controller="NarrativeController">
 ## What is Clojure good at?
 {: .slide_title .slide}
 
-<div ng-controller="NarrativeController">
 
 #### <button class="link" ng-model="block21" ng-click="block21=!block21">Intro</button>
 
@@ -113,8 +109,6 @@ Introduction to Programming with Clojure
 > [Quil](https://github.com/quil/quil), which is what we're going to
 > do together.
 {: ng-show="block24" .description}
-
-</div>
 </section>
 
 <section>
