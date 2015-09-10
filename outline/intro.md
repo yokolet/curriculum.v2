@@ -27,10 +27,12 @@ Introduction to Programming with Clojure
 </section>
 
 <section>
+<div ng-controller="NarrativeController">
+
 ## Why Clojure?
 {: .slide_title .slide}
 
-####  <button class="link" ng-model="block11" ng-click="block11=!block11">Intro</button>
+#### <button class="link" ng-model="block11" ng-click="block11=!block11">Intro</button>
 
 > If you've never programmed before, you may not know that there are
 > many languages to choose from. Some of the other languages you might
@@ -44,7 +46,7 @@ Introduction to Programming with Clojure
 > language to learn in addition to others you might already know:
 {: ng-show="block11" .description}
 
-#### Clojure is _simple_ <button class="link" ng-model="block12" ng-click="block12=!block12">Details</button>
+#### Clojure is _simple_ <button class="link" ng-bind-html="details" ng-model="block12" ng-click="block12=!block12"></button>
 
 > Clojure is _simple_. That's not to say it's not powerful; it is. The
 > number of concepts you have to know to program in Clojure is very
@@ -53,7 +55,7 @@ Introduction to Programming with Clojure
 > language.
 {: ng-show="block12" .description}
 
-#### Clojure is _all-purpose_ <button class="link" ng-model="block13" ng-click="block13=!block13">Details</button>
+#### Clojure is _all-purpose_ <button class="link" ng-model="block13" ng-click="block13=!block13" ng-bind-html="details"></button>
 
 > Clojure is _all-purpose_. Some languages have a specific focus.
 > JavaScript, for example, was traditionally used only in web pages
@@ -62,18 +64,22 @@ Introduction to Programming with Clojure
 > you can use Clojure for any sort of application easily.
 {: ng-show="block13" .description}
 
-#### Clojure is _fun_ <button class="link" ng-model="block14" ng-click="block14=!block14">Details</button>
+#### Clojure is _fun_ <button class="link" ng-model="block14" ng-click="block14=!block14" ng-bind-html="details"></button>
 
 > Clojure is _fun_. That's a matter of opinion, of course, but we
 > think it holds true. I hope that during this course you experience
 > the joy of seeing a Clojure program come together and do something
 > powerful and surprising.
 {: ng-show="block14" .description}
+
+</div>
 </section>
 
 <section>
 ## What is Clojure good at?
 {: .slide_title .slide}
+
+<div ng-controller="NarrativeController">
 
 #### <button class="link" ng-model="block21" ng-click="block21=!block21">Intro</button>
 
@@ -81,14 +87,14 @@ Introduction to Programming with Clojure
 > doesn't have strong suits, though.
 {: ng-show="block21" .description}
 
-#### Data processing <button class="link" ng-model="block22" ng-click="block22=!block22">Details</button>
+#### Data processing <button class="link" ng-model="block22" ng-click="block22=!block22" ng-bind-html="details"></button>
 
 > Clojure is known for being good at data processing. That's because
 > it has a good set of data structures--that is, it has several
 > built-in ways to represent data that are easy to use and powerful.
 {: ng-show="block22" .description}
 
-#### Concurrency <button class="link" ng-model="block23" ng-click="block23=!block23">Details</button>
+#### Concurrency <button class="link" ng-model="block23" ng-click="block23=!block23" ng-bind-html="details"></button>
 
 > Clojure is known for its concurrency. Think about writing
 > instructions for four of your friends about how to assemble a
@@ -101,12 +107,14 @@ Introduction to Programming with Clojure
 > some easy ways to write these sorts of instructions for computers.
 {: ng-show="block23" .description}
 
-#### Everything! <button class="link" ng-model="block24" ng-click="block24=!block24">Details</button>
+#### Everything! <button class="link" ng-model="block24" ng-click="block24=!block24" ng-bind-html="details"></button>
 
 > Clojure also works well for building drawing applications with
 > [Quil](https://github.com/quil/quil), which is what we're going to
 > do together.
 {: ng-show="block24" .description}
+
+</div>
 </section>
 
 <section>
