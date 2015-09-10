@@ -111,7 +111,7 @@ Introduction to Programming with Clojure
 {: ng-show="block24" .description}
 </section>
 
-<section>
+<section ng-controller="NarrativeController">
 ## What does Clojure look like?
 {: .slide_title .slide}
 
@@ -121,7 +121,7 @@ Introduction to Programming with Clojure
 (forward :trinity 40)
 ```
 
-#### Parentheses <button class="link" ng-model="block31" ng-click="block31=!block31">Details</button>
+#### Parentheses <button class="link" ng-bind-html="details" ng-model="block31" ng-click="block31=!block31"></button>
 
 > The first thing you notice are parentheses, probably. Parentheses
 > enclose instructions to the computer in Clojure. A left parenthesis
@@ -130,7 +130,7 @@ Introduction to Programming with Clojure
 > of nested parentheses, on other words, nested enclosing instructions. 
 {: ng-show="block31" .description}
 
-#### Functions <button class="link" ng-model="block32" ng-click="block32=!block32">Details</button>
+#### Functions <button class="link" ng-bind-html="details" ng-model="block32" ng-click="block32=!block32"></button>
 
 > Next to the parentheses, we see the instructions to the
 > computer. That instruction is normally what we call a _function_.
@@ -140,7 +140,7 @@ Introduction to Programming with Clojure
 > Clojure functions always return a value.
 {: ng-show="block32" .description}
 
-#### Arguments <button class="link" ng-model="block33" ng-click="block33=!block33">Details</button>
+#### Arguments <button class="link" ng-bind-html="details" ng-model="block33" ng-click="block33=!block33"></button>
 
 > Many functions take in _arguments_--which are everything else inside
 > the enclosing parentheses after the function--.
@@ -151,11 +151,11 @@ Introduction to Programming with Clojure
 {: ng-show="block33" .description}
 </section>
 
-<section>
+<section ng-controller="NarrativeController">
 ### Comments
 
-<button class="link" ng-model="block41" ng-click="block41=!block41">Details 1</button>
-<button class="link" ng-model="block42" ng-click="block42=!block42">Details 2</button>
+<button class="link" ng-bind-html="details1" ng-model="block41" ng-click="block41=!block41"></button>
+<button class="link" ng-bind-html="details2" ng-model="block42" ng-click="block42=!block42"></button>
 
 > When we write code, we try to make it as clear as possible. Doing so
 > is a huge advantage because our code gets read by others (oftentimes
@@ -183,7 +183,7 @@ Introduction to Programming with Clojure
 ```
 </section>
 
-<section>
+<section ng-controller="NarrativeController">
 ## What is a REPL?
 {: .slide_title .slide}
 
@@ -202,11 +202,11 @@ Introduction to Programming with Clojure
 
 </section>
 
-<section>
+<section ng-controller="NarrativeController">
 ## REPL in action
 {: .slide_title .slide}
 
-#### Light Table's REPL <button class="link" ng-model="block61" ng-click="block61=!block61">Details</button>
+#### Light Table's REPL <button class="link" ng-bind-html="details" ng-model="block61" ng-click="block61=!block61"></button>
 
 > Clojure has a REPL that you can run from the terminal easily, and
 > we'll talk more about that later, but for now, let's use Light
@@ -215,7 +215,7 @@ Introduction to Programming with Clojure
 {: ng-show="block61" .description}
 
 
-#### insta-REPL <button class="link" ng-model="block62" ng-click="block62=!block62">Details</button>
+#### insta-REPL <button class="link" ng-bind-html="details" ng-model="block62" ng-click="block62=!block62"></button>
 
 > Let's begin with "insta-REPL."
 > Start Light Table, go to the "View" menu and click "Commands."
@@ -230,7 +230,7 @@ Introduction to Programming with Clojure
 {: ng-show="block62" .description}
 
 
-#### Evaluate file and line <button class="link" ng-model="block63" ng-click="block63=!block63">Details</button>
+#### Evaluate file and line <button class="link" ng-bind-html="details" ng-model="block63" ng-click="block63=!block63"></button>
 
 > Also, Light Table give us a way to evaluate Clojure program file and a
 > single line of Clojure program.
