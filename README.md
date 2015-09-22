@@ -1,4 +1,4 @@
-(experimenting) ClojureBridge Curriculum
+(experimenting almost over) ClojureBridge Curriculum
 ========================
 
 Teaching guide
